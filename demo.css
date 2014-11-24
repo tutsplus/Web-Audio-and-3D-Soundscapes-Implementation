@@ -1,0 +1,27 @@
+body {
+	width: 600px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+	cursor: pointer;
+	font-family: Arial, Helvetica;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#canvas {
+	position: absolute;
+	background-color: #3D5613;
+	background-image: url("res/background.png")
+}
+
+#status {
+	left: 10px;
+	bottom: 10px;
+	padding: 10px;
+	position: absolute;
+	color: #000000;
+	background-color: #FFFFFF;
+}
